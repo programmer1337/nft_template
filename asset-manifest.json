@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nft_template/static/css/main.8e0effa0.css",
-    "main.js": "/nft_template/static/js/main.eabf2204.js",
+    "main.css": "/nft_template/static/css/main.2fd25681.css",
+    "main.js": "/nft_template/static/js/main.383f9792.js",
     "index.html": "/nft_template/index.html",
-    "main.8e0effa0.css.map": "/nft_template/static/css/main.8e0effa0.css.map",
-    "main.eabf2204.js.map": "/nft_template/static/js/main.eabf2204.js.map"
+    "main.2fd25681.css.map": "/nft_template/static/css/main.2fd25681.css.map",
+    "main.383f9792.js.map": "/nft_template/static/js/main.383f9792.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e0effa0.css",
-    "static/js/main.eabf2204.js"
+    "static/css/main.2fd25681.css",
+    "static/js/main.383f9792.js"
   ]
 }
