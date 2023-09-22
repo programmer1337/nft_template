@@ -1,0 +1,41 @@
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.collectionContainer{
+    padding: 10px;
+    margin: 30px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.statContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    width: 36%;
+}
+.statTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+
+
+    color: #93989A;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+@media (max-width: 1244px){
+    .collectionContainer{
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,34 @@
+.followButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Dubai Medium", sans-serif;
+  color: #23262F;
+
+  transition: all 0.2s ease-in-out;
+
+  background: none;
+  border-radius: 7px;
+  border: 2px solid #E6E8EC;
+  height: 30px;
+
+  padding: 12px;
+}
+.followButton:active{
+  transform: scale(0.9);
+}
+.followButton:hover{
+  transition: all 0.2s ease-in-out;
+  background: rgba(96, 96, 96, 0.2);
+}
+
+.followed {
+  background-color: #E6E8EC;
+}
+
+.text{
+  font-size: 14px;
+  cursor: pointer;
+}
+
+

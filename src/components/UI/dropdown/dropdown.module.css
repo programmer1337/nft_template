@@ -1,0 +1,31 @@
+.menu {
+    position: absolute;
+    top: 120px;
+
+    z-index: 5;
+
+    padding: 10px;
+    border: 1px solid #bebebe;
+    border-radius: 4px;
+    background-color: rgba(229, 229, 229, 0.9);
+    max-height: 250px;
+    overflow-y: hidden;
+    width: 100%;
+
+    animation: show 100ms ease-in-out;
+}
+@keyframes show {
+    from {opacity: 0;} to {opacity: 1;}
+}
+.menuItem{
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+}
+
+.dropButton{
+    padding: 10px;
+    border: none;
+    background: #f9f9f9;
+    font-size: 42px;
+}

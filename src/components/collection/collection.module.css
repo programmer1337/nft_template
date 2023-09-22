@@ -1,0 +1,66 @@
+.collectionContainer{
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.collectionInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 25%;
+}
+.collectionText{
+    display: flex;
+    flex-direction: column;
+}
+.collectionName{
+    color: #141416;
+    font-family: Roboto, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+}
+.collectionCreator{
+    color: #64748B;
+    font-family: Roboto, sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.collectionStatistic{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.currencyImg {
+    object-fit: contain;
+    width: 21px;
+    height: 21px;
+
+    margin: 5px;
+}
+
+@media (max-width: 1224px){
+    .collectionInfo{
+        width: 100%;
+    }
+    .collectionStatistic{
+        flex-direction: column;
+    }
+    .collectionName{
+        white-space: nowrap;
+        font-size: 18px;
+    }
+    .collectionCreator{
+        font-size: 16px;
+    }
+}

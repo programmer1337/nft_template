@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    border-radius: 14px;
+    border: 1px solid #EDF2F7;
+    background: #FFF;
+    box-shadow: 9px 9px 44px 0 rgba(20, 20, 22, 0.10);
+}
+.blockTitle{
+    margin: 15px;
+
+    color: #1A202C;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%; /* 25.018px */
+    letter-spacing: 0.176px;
+}
+

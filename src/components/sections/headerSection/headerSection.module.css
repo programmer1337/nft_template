@@ -1,0 +1,41 @@
+.heroText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 35%;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+}
+
+.heroHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 40%;
+}
+.firstImage{
+    display: flex;
+}
+.secondImage{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1224px) {
+    .heroText{
+        width: 100%;
+    }
+    .features{
+        display: none;
+        width: 75%;
+    }
+    .heroHeader{
+        width: 95%;
+    }
+}

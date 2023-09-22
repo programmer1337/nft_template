@@ -1,0 +1,22 @@
+.imageContainer{
+    position: relative;
+    text-align: center;
+}
+
+.backgroundBlur{
+    top: 10%;
+    left: 5%;
+
+    object-fit: cover;
+    position: absolute;
+
+    border-radius: 12px;
+    filter: blur(42px);
+}
+
+.image{
+    position: relative;
+    object-fit: cover;
+
+    border-radius: 25px;
+}

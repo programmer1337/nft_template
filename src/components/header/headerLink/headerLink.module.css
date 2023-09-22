@@ -1,0 +1,22 @@
+.headerLink {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+  color: #606060;
+  text-decoration: none;
+;
+
+  transition: all 0.2s ease-in-out;
+}
+.headerLink:hover {
+  transition: all 0.2s ease-in-out;
+
+  color: rgba(0, 0, 0);
+}
+.headerLink:active {
+  transition: all 0.2s ease-in-out;
+  transform: scale(0.9);
+}
+

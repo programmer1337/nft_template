@@ -1,0 +1,26 @@
+.section{
+    display: flex;
+    margin: 150px auto;
+
+    width: 100%;
+}
+
+.sectionTitle{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 30px;
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Roboto, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+@media (max-width: 1224px) {
+    .section{
+        margin: 0;
+        padding: 15px;
+    }
+}
